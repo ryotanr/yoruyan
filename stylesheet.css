@@ -1,0 +1,509 @@
+body{
+  margin:0;
+  padding:0;
+  height:100%;
+
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+
+    vertical-align: baseline;
+    background: transparent;
+}
+ul{
+  padding-inline-start:0;
+}
+p {
+
+}
+div{
+  display:block;
+}
+
+iframe{
+  display:block;
+}
+li {
+  list-style: none;
+}
+
+footer a{
+  color:white;
+}
+
+a{
+  text-decoration: none;
+  color:#00bfff;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+header{
+
+  height:140px;
+  background-image: url("images/header-logo1.jpg");
+
+  background-size: cover;
+
+}
+
+.header-logo{
+
+  padding-top:30px;
+  padding-bottom:10px;
+  color:white;
+  display:block;
+  font-weight: bold;
+  padding-left: 400px;
+}
+
+.header-logo a{
+  text-decoration: none;
+  color:white;
+  font-size:30px
+
+}
+
+.container{
+  margin:0 auto 20px;
+
+  width:900px;
+  background-color:#f6f6f6
+
+    padding: 15px 15px 5px;
+}
+
+.mbox{
+  box-shadow: 1px 1px 2px rgba(128,128,128,0.5);
+  margin-bottom:15px;
+  -webkit-border-radius: 5px;
+  padding: 10px;
+}
+
+.main-wrapper{
+  text-align: center;
+  padding-top:30px;
+
+  margin-bottom:30px;
+
+}
+.main-wrapper li{
+  padding-left:10px;
+  padding-right:15px;
+  display:inline-block;
+  border-right:2px solid red;
+  color:#191970;
+  text-decoration: none;
+  vertical-align:baseline;
+  font-size:20px
+}
+
+.left-contents{
+float:left;
+width:600px;
+}
+
+.info{
+  line-height: 1px;
+padding-bottom:5px;
+
+}
+
+.info h2{
+  color:#dc143c;
+
+}
+
+.info p{
+  font-size:10px;
+  padding-left:62px;
+}
+.contents {
+    background: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+.info-contents{
+  display:inline-block;
+  line-height:10px;
+  border-bottom:1px dotted #ccc;
+  width:550px;
+  padding-bottom:10px;
+  padding-top:15px;
+  text-decoration: none;
+}
+
+.info-contents p,a,{
+
+
+  color:#191970;
+
+}
+
+.icon-time{
+  border: 1px solid #ccc;
+  font-weight: bold;
+  font-size:12px;
+  padding:1px 5px 1px 5px;
+}
+
+.sd{
+  line-height: 1px;
+padding-bottom:5px;
+
+}
+.sd h2{
+  color:#dc143c;
+
+}
+
+.sd p{
+  font-size:10px;
+  padding-left:55px;
+}
+
+.sd-live{
+  display:inline-block;
+  margin 0 1px 1px 0;
+  float:left;
+  border: 1px solid #ccc;
+  padding:1px 5px 1px 5px;
+  background-color:white;
+  font-weight:bold;
+  font-size:12px;
+}
+
+.sd-name-ueda{
+  display:inline-block;
+  margin 0 1px 1px 0;
+  border: 1px solid #ccc;
+  padding:1px 5px 1px 5px;
+  font-weight:bold;
+  font-size:12px;
+  margin-left:2px;
+  background-color:red;
+  color:white;
+}
+
+.sd-name-masaki{
+  display:inline-block;
+  margin 0 1px 1px 0;
+  border: 1px solid #ccc;
+  padding:1px 5px 1px 5px;
+  font-weight:bold;
+  font-size:12px;
+  margin-left:2px;
+  background-color:#ff69b4;
+  color:white;
+}
+
+.sd-name-shika{
+  display:inline-block;
+  margin 0 1px 1px 0;
+  border: 1px solid #ccc;
+  padding:1px 5px 1px 5px;
+  font-weight:bold;
+  font-size:12px;
+  margin-left:2px;
+  background-color:blue;
+  color:white;
+}
+
+
+.media{
+  line-height: 1px;
+ margin-top:20px;
+}
+.media h2{
+  color:#dc143c;
+
+}
+
+.media p{
+  font-size:10px;
+  padding-left:35px;
+}
+
+
+
+.media-contents {
+  margin-top:15px;
+
+}
+
+.info-contents p{
+
+font-size:15px;
+}
+
+.news{
+  font-size:15px;
+}
+
+.right-contents{
+  float:right;
+  width:250px;
+  overflow: hidden;
+
+}
+
+.photo{
+  height:130px;
+  width:100px;
+  border:1px solid #D1D7DE;
+  border-bottom:none;
+
+}
+
+.member p{
+  font-size:10px;
+  padding-left:65px;
+}
+.member h2{
+  color:#dc143c;
+}
+
+.right-contents li{
+  float:left;
+  padding-inline-start: 0;
+}
+
+.member{
+  line-height: 1px;
+  padding-bottom:5px;
+}
+
+.name{
+  color:white;
+  display:block;
+  margin-bottom:15px;
+  text-align:center;
+  height:30px;
+  font-size:15px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.pack{
+  margin-right:10px;
+
+}
+
+.rname{
+  background-color: red;
+}
+
+.cname{
+  background-color: #ff69b4;
+  font-size:12px;
+}
+
+.hname{
+  background-color: blue;
+}
+
+.contents2{
+  clear:both;
+}
+.pad{
+  padding-inline-start: 0;
+}
+
+.contents3{
+  margin-bottom:100px;
+}
+
+footer{
+
+
+  clear:both;
+
+    height:140px;
+    background-image: url("images/footer-logo.jpg");
+    margin-top:auto;
+    background-size: cover;
+}
+
+.footer-text{
+padding-top:20px;
+  color:white;
+  padding-left:500px;
+  font-size:15px;
+  font-weight:bold;
+}
+
+.inc{
+  padding-top:20px;
+    color:white;
+    padding-left:480px;
+    font-size:18px;
+    line-height:10px;
+    font-weight:bold;
+}
+
+.active{
+  color:#09c;
+}
+
+.other_title_box{
+  background-color:#0075C2;
+  color:white;
+  position:relative;
+  padding-top: 10px;
+  -webkit-border-radius: 5px;
+  height:100px;
+}
+
+.other_title_box h2{
+  position:absolute;
+  right:10px;
+  top:25px;
+  font-size:40px;
+   font-family: serif;
+}
+
+.crumb{
+  position:absolute;
+  left:10px;
+  top:0;
+  padding-inline-start:0;
+}
+.crumb li{
+  display:inline;
+}
+
+.icon-schedule.n-event{
+    color: #FF9999;
+    display:inline-block;
+    border: 1px solid #ccc;
+    padding:1px 5px 1px 5px;
+    font-size:12px;
+}
+
+.news_contents li {
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 10px;
+}
+
+#wrapper{
+  display:flex;
+  flex-flow:column;
+  min-height:100vh;
+}
+
+
+.artist{
+  height:226px;
+  width:226px;
+  border: 1px solid #D1D7DE;
+  border-bottom:none;
+
+}
+
+.artist_listbox{
+  display: flex;
+justify-content: space-between;
+}
+
+.mnueda{
+  height:40px;
+  width:228px;
+  text-align: center;
+  background-color:red;
+  line-height:40px;
+  color:white;
+  font-weight:bold;
+}
+
+.artist_listbox li{
+  display:inline-block;
+  line-height: 1px;
+  padding-bottom:5px;
+  padding-right:10px;
+}
+
+.mnmasaki{
+  height:40px;
+  width:228px;
+  text-align: center;
+  background-color:#ff69b4;
+  line-height:40px;
+  color:white;
+  font-weight:bold;
+}
+
+.mnshika{
+  height:40px;
+  width:228px;
+  text-align: center;
+  background-color:blue;
+  line-height:40px;
+  color:white;
+  font-weight:bold;
+}
+
+.artist_listbox a:hover{
+  opacity:0.7;
+}
+
+.category{
+  width:100%;
+
+}
+.category p{
+  display:inline-block;
+}
+
+.left-category{
+  border:1px solid #D1D7DE;
+  padding:10px 80px;
+  font-size:15px;
+  margin-left:20px;
+  background-color:#0075C2;
+  color:white;
+  width:60px;
+  text-align: center;
+  margin:0;
+}
+.right-category{
+  border-top:1px solid #d3d3d3;
+  border-bottom:1px solid #d3d3d3;
+  padding:10px 165px;
+  font-size:15px;
+  width:310px;
+  text-align: center;
+  margin:0;
+}
+
+.kigyou-top{
+  color:#00bfff;
+  line-height:1px;
+  padding-left:10px;
+  margin-bottom:10px;
+}
+
+.eigo{
+  font-size:40px;
+}
+.nihongo{
+  font-size:35px;
+}
+
+input,textarea{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+/* contact-submitのCSSを指定してください */
+.contact-submit{
+  background-color:#dee7ec;
+  color:#889eab;
+}
