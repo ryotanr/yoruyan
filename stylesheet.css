@@ -43,7 +43,7 @@ a:hover{
 header{
 
   height:140px;
-  background-image: url("images/header-logo1.jpg");
+  background-image: url("https://github.com/ryotanr/yoruyan/blob/main/header-logo1.jpg?raw=true");
 
   background-size: cover;
 
@@ -323,7 +323,7 @@ footer{
   clear:both;
 
     height:140px;
-    background-image: url("images/footer-logo.jpg");
+    background-image: url("https://github.com/ryotanr/yoruyan/blob/main/footer-logo.jpg?raw=true");
     margin-top:auto;
     background-size: cover;
 }
